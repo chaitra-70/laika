@@ -1,0 +1,44 @@
+.asteroid-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.asteroid-title {
+  color: #58c7ff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hazard {
+  background: #ff3b30;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.safe {
+  background: #16a34a;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.asteroid-info p {
+  margin: 12px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}

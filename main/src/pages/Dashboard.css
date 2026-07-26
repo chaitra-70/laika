@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.dashboard{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    position:relative;
+    background:#000;
+}
+
+
+/* ---------------- Video ---------------- */
+
+.hero-video{
+    position:absolute;
+    inset:0;
+    z-index:0;
+}
+
+.hero-video video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ---------------- Overlay ---------------- */
+
+.overlay{
+    position:absolute;
+    inset:0;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.55)
+    );
+}
+
+/* ---------------- Navbar ---------------- */
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+
+    z-index:5;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:28px 60px;
+}
+
+/* ---------------- Logo ---------------- */
+
+.logo span{
+    color:#8ab4ff;
+    font-size:11px;
+    letter-spacing:4px;
+    display:block;
+    margin-bottom:10px;
+}
+
+.logo h1{
+    color:white;
+    font-size:44px;
+    letter-spacing:6px;
+    font-weight:700;
+}
+
+/* ---------------- Links ---------------- */
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:38px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+
+    font-size:13px;
+    letter-spacing:2px;
+    font-weight:500;
+
+    transition:.3s;
+    position:relative;
+}
+
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-8px;
+
+    width:0%;
+    height:2px;
+
+    background:#42bfff;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#42bfff;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}

@@ -1,0 +1,21 @@
+.navbar{
+    height: 70px;
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.navbar input{
+    width:250px;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #1e293b;
+    color: white;
+}
+.navbar input::placeholder{
+    color: #94a3b8;
+}
