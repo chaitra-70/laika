@@ -27,10 +27,8 @@
     "react-leaflet": "^5.0.0",
     "react-parallax-tilt": "^1.7.333",
     "react-router-dom": "^7.18.0",
-    "react-tsparticles": "^2.12.2",
     "resium": "^1.24.0",
     "three": "^0.185.1",
-    "tsparticles": "^4.3.0",
     "vite-plugin-cesium": "^1.2.23"
   },
   "devDependencies": {

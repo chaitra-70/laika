@@ -1,5 +1,4 @@
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import Particles from "@tsparticles/react";
 function StarBackground() {
   const particlesInit = async (engine) => {
     await loadFull(engine);
