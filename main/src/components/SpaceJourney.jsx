@@ -95,7 +95,7 @@ export default function SpaceJourney() {
           }}
           onClick={() => navigate("/dashboard")}
         >
-          Get into it
+          less gooo
         </motion.button>
 
       </motion.div>

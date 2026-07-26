@@ -7,8 +7,6 @@ import "./ISS.css";
 export default function ISS() {
   const [iss, setIss] = useState({});
   const [location, setLocation] = useState({
-    region: "--",
-    country: "--",
   });
 
   useEffect(() => {

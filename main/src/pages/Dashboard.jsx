@@ -25,6 +25,7 @@ function Dashboard() {
           <Link to="/iss">ISS</Link>
           <Link to="/launches">LAUNCHES</Link>
           <Link to="/asteroids">ASTEROIDS</Link>
+          <Link to="/spacefeed">NEWS</Link>
         </div>
       </nav>
     </div>

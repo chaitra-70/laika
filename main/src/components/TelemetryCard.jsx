@@ -29,16 +29,6 @@ function TelemetryCard({ iss, location }) {
         </div>
 
         <div className="row">
-          <span>Region</span>
-          <strong>{location.region || "--"}</strong>
-        </div>
-
-        <div className="row">
-          <span>Country</span>
-          <strong>{location.country || "--"}</strong>
-        </div>
-
-        <div className="row">
           <span>Altitude</span>
           <strong>
             {iss.altitude
